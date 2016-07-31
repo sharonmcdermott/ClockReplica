@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  AlarmViewController.swift
 //  Clock Replica
 //
 //  Created by Sharon's Mac on 7/27/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class AlarmViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

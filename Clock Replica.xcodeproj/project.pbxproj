@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8054C5691D48DBC200F92305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8054C5681D48DBC200F92305 /* AppDelegate.swift */; };
-		8054C56B1D48DBC200F92305 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8054C56A1D48DBC200F92305 /* FirstViewController.swift */; };
-		8054C56D1D48DBC200F92305 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8054C56C1D48DBC200F92305 /* SecondViewController.swift */; };
+		8054C56B1D48DBC200F92305 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8054C56A1D48DBC200F92305 /* AlarmViewController.swift */; };
+		8054C56D1D48DBC200F92305 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8054C56C1D48DBC200F92305 /* StopwatchViewController.swift */; };
 		8054C5701D48DBC200F92305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8054C56E1D48DBC200F92305 /* Main.storyboard */; };
 		8054C5721D48DBC200F92305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8054C5711D48DBC200F92305 /* Assets.xcassets */; };
 		8054C5751D48DBC200F92305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8054C5731D48DBC200F92305 /* LaunchScreen.storyboard */; };
+		8054C57D1D48DC7400F92305 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8054C57C1D48DC7400F92305 /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8054C5651D48DBC200F92305 /* Clock Replica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clock Replica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8054C5681D48DBC200F92305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8054C56A1D48DBC200F92305 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8054C56C1D48DBC200F92305 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8054C56A1D48DBC200F92305 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		8054C56C1D48DBC200F92305 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
 		8054C56F1D48DBC200F92305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8054C5711D48DBC200F92305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8054C5741D48DBC200F92305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8054C5761D48DBC200F92305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8054C57C1D48DC7400F92305 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				8054C5681D48DBC200F92305 /* AppDelegate.swift */,
-				8054C56A1D48DBC200F92305 /* FirstViewController.swift */,
-				8054C56C1D48DBC200F92305 /* SecondViewController.swift */,
+				8054C56A1D48DBC200F92305 /* AlarmViewController.swift */,
+				8054C57C1D48DC7400F92305 /* TimerViewController.swift */,
+				8054C56C1D48DBC200F92305 /* StopwatchViewController.swift */,
 				8054C56E1D48DBC200F92305 /* Main.storyboard */,
 				8054C5711D48DBC200F92305 /* Assets.xcassets */,
 				8054C5731D48DBC200F92305 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8054C56D1D48DBC200F92305 /* SecondViewController.swift in Sources */,
+				8054C57D1D48DC7400F92305 /* TimerViewController.swift in Sources */,
+				8054C56D1D48DBC200F92305 /* StopwatchViewController.swift in Sources */,
 				8054C5691D48DBC200F92305 /* AppDelegate.swift in Sources */,
-				8054C56B1D48DBC200F92305 /* FirstViewController.swift in Sources */,
+				8054C56B1D48DBC200F92305 /* AlarmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
