@@ -57,11 +57,11 @@ class StopwatchViewController: UIViewController {
             rightButton.setTitle("Stop", forState: .Normal)
             stateLabel.text = "Started"
         case .Stopped:
-            leftButton.setTitle("Lap", forState: .Normal)
+            leftButton.setTitle("Reset", forState: .Normal)
             rightButton.setTitle("Start", forState: .Normal)
             stateLabel.text = "Reset"
         case .Reset:
-            leftButton.setTitle("Reset", forState: .Normal)
+            leftButton.setTitle("Lap", forState: .Normal)
             rightButton.setTitle("Start", forState: .Normal)
             stateLabel.text = "Stopped"
         }
